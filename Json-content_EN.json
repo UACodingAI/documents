@@ -1,0 +1,410 @@
+{
+    "landingPage": [
+      {
+        "element": "Idioma del content de la página",
+        "description": "Definición del lenguaje del texto del content",
+        "content": "lang=\"es\"",
+        "wcag": [
+          "3.1.1 A (Idioma de la página no definido)"
+        ],
+        "usability": []
+      },
+      {
+        "element": "Encabezado <header>",
+        "description": "Incluye logo, menú y título del curso",
+        "content": {
+          "logo": "logo.jpg",
+          "titulo": "Microcredencial Universitaria en Especialización en Accesibilidad Digital por la Universitat de Lleida"
+        },
+        "wcag": [
+          "1.3.1 A (estructura semántica)",
+          "2.4.2 A (título)",
+          "1.3.2 A (orden lógico)*",
+          "2.4.6 AA (encabezados y etiquetas)",
+          "3.2.3 AA (navegación consistente)"
+        ],
+        "usability": [
+          "1.1 Título visible",
+          "1.2 Ubicación clara",
+          "1.3 Estado claro",
+          "2.4 Lenguaje familiar",
+          "3.1 Volver al inicio",
+          "4.4 Consistencia visual"
+        ]
+      },
+      {
+        "element": "Menú de navegación",
+        "description": "Navegación principal con enlaces a content directo de la página",
+        "content": [
+          "Presentación",
+          "Programa",
+          "Profesorado",
+          "Calendario",
+          "Matricula",
+          "FAQ",
+          "Contacto"
+        ],
+        "wcag": [
+          "2.1.1 A (uso por teclado)",
+          "2.1.2 A (sin trampas en el teclado)",
+          "2.4.4 A (enlaces descriptivos)",
+          "2.4.7 AA (foco visible)",
+          "2.4.11 AA (foco no oculto o poco visible)**",
+          "3.2.3 AA (ayuda coherente)**",
+          "2.5.8 AA (tamaño del objetivo (mínimo))**"
+        ],
+        "usability": [
+          "1.2 Ubicación clara",
+          "1.4 Enlaces explícitos",
+          "3.1 Volver al inicio",
+          "4.1 Etiquetas coherentes",
+          "4.6 Componentes estándar"
+        ]
+      },
+      {
+        "element": "Imagen destacada o banner",
+        "description": "Imagen promocional del curso",
+        "content": "imgpromo.jpg",
+        "wcag": [
+          "1.1.1 A (texto alternativo)",
+          "1.4.3 AA (contraste)",
+          "1.4.5 AA (texto sobre imagen)",
+          "1.4.13 AA (content en foco o al pasar el mouse)*"
+        ],
+        "usability": [
+          "9.1 Diseño minimalista",
+          "9.2 Texto conciso",
+          "12.2 Contraste de texto",
+          "12.3 Legibilidad sobre fondo"
+        ]
+      },
+      {
+        "element": "Botón \"Inscribirse ahora\"",
+        "description": "Llamada a la acción principal (CTA)",
+        "content": {
+          "texto": "Inscríbete ahora",
+          "accion": "Ir a sección matrícula",
+          "frase": "Aprende a crear experiencias digitales inclusivas que funcionen para todos, independientemente de su capacidad o discapacidad."
+        },
+        "wcag": [
+          "2.1.1 A (teclado)",
+          "2.5.8 AA (tamaño mínimo)**",
+          "1.4.11 AA (contraste no-textual)",
+          "2.4.4 A (nombre descriptivo)",
+          "2.4.3 A (orden del foco)",
+          "1.4.13 AA (content en foco o al pasar el mouse)*"
+        ],
+        "usability": [
+          "1.5 Acciones siempre visibles",
+          "2.1 Información lógica",
+          "4.1 Etiquetas coherentes",
+          "6.1 Atajos disponibles",
+          "6.2 Guía de atajos",
+          "6.6 Sin esperas innecesarias"
+        ]
+      },
+      {
+        "element": "Presentación",
+        "description": "Descripción breve del curso",
+        "content": {
+          "objetivo": "Formar en diseño, desarrollo y evaluación de contents web accesibles según la EAA, EN 301 549 y WCAG 2.2.",
+          "publico": "Trabajadores, autónomos y estudiantes",
+          "modalidad": "100% online (5h/semana)",
+          "duracion": "3 meses",
+          "certificacion": "Certificado de formación continua de la Universitat de Lleida",
+          "idioma": "Español 100%",
+          "metodologia": [
+            "Campus virtual con materiales descargables, vídeos y foros",
+            "Clases en vivo los lunes y jueves de 18:00h a 20:00h",
+            "Práctica evaluativa incremental"
+          ]
+        },
+        "wcag": [
+          "1.4.3 AA (contraste)",
+          "1.4.12 AA (espaciado)",
+          "1.3.1 A (estructura)",
+          "3.1.2 AA (idioma de partes)"
+        ],
+        "usability": [
+          "5.1 Facilidad de inicio",
+          "5.5 Organización intuitiva",
+          "9.2 Texto conciso",
+          "9.4 Estructura de texto clara"
+        ]
+      },
+      {
+        "element": "Video promocional del curso",
+        "description": "Vídeo embebido con explicación del curso",
+        "content": {
+          "titulo": "Video introductorio sobre el curso de accesibilidad digital",
+          "url": "https://www.youtube.com/watch?v=OFDr-_YKzSg",
+          "subtitulos": "https://interaccion2023.github.io/Web/videoAcc/LleidaInteraccion2023.vtt",
+          "transcripcion": "https://interaccion2023.github.io/Web/videoAcc/LleidaInteraccion2023.pdf"
+        },
+        "wcag": [
+          "1.2.2 A (subtítulos)",
+          "1.2.3 A (audiodescripción)",
+          "1.2.5 AA (audiodescripción)",
+          "2.1.1 A (reproductor accesible por teclado)",
+          "2.3.1 A (tres destellos o menos)"
+        ],
+        "usability": [
+          "1.3 Estado claro",
+          "5.3 Sin memoria necesaria",
+          "5.4 content autocontent",
+          "7.1 Confirmación previa",
+          "10.1 Ayuda accesible"
+        ]
+      },
+      {
+        "element": "Programa",
+        "description": "Lista de contents del curso",
+        "content": {
+          "modulos": [
+            {
+              "titulo": "Módulo 1. Fundamentos en accesibilidad digital",
+              "explicacion": "Introducción a la accesibilidad digital, tecnologías de asistencia, normativas, barreras digitales y primeras herramientas de evaluación.",
+              "aprendizaje": [
+                "Comprender principios y ventajas de la accesibilidad",
+                "Conocer cómo las personas con discapacidad acceden a la web",
+                "Normas internacionales de accesibilidad (WCAG)",
+                "Barreras comunes",
+                "Necesidades de los usuarios"
+              ],
+              "importancia": "Base conceptual para entender la accesibilidad como derecho y requisito normativo",
+              "url": "https://www.formaciocontinua.udl.cat/ca/programes-formatius/cursos/4444/",
+              "profesor": "Mario"
+            },
+            {
+              "titulo": "Módulo 2. Diseño accesible",
+              "explicacion": "Fundamentos de diseño digital accesible, arquitectura de información, interacción, color, tipografía, iconografía y uso de Figma con plugins accesibles.",
+              "aprendizaje": [
+                "Estrategias de diseño inclusivo",
+                "Errores comunes y soluciones",
+                "Uso de IA como apoyo al diseño"
+              ],
+              "importancia": "Incorporar accesibilidad desde la fase de diseño",
+              "url": "https://www.formaciocontinua.udl.cat/ca/programes-formatius/cursos/4445/",
+              "profesor": "Xavi"
+            },
+            {
+              "titulo": "Módulo 3. Codificación accesible",
+              "explicacion": "Buenas prácticas en HTML semántico, CSS, JavaScript, WAI-ARIA, gestión del foco y navegación por teclado, con apoyo de IA.",
+              "aprendizaje": [
+                "Técnicas de marcado accesible",
+                "Corrección de errores comunes de código",
+                "IA para generar/validar código accesible"
+              ],
+              "importancia": "Garantizar la accesibilidad técnica de productos digitales",
+              "url": "https://www.formaciocontinua.udl.cat/ca/programes-formatius/cursos/4446/",
+              "profesor": "Alberto"
+            },
+            {
+              "titulo": "Módulo 4. Evaluación de la accesibilidad",
+              "explicacion": "Metodología WCAG-EM, herramientas automáticas y semiautomáticas, pruebas de usuario, redacción de informe y declaración de accesibilidad.",
+              "aprendizaje": [
+                "Tecnologías de apoyo y pruebas",
+                "Análisis de errores y soluciones",
+                "IA como apoyo en evaluación"
+              ],
+              "importancia": "Herramientas y metodología para auditorías y cumplimiento legal",
+              "url": "https://www.formaciocontinua.udl.cat/ca/programes-formatius/cursos/4447/",
+              "profesor": "María"
+            }
+          ]
+        },
+        "wcag": [
+          "1.3.1 A (estructura semántica)",
+          "1.3.2 A (orden lógico)",
+          "2.4.5 AA (múltiples maneras de navegación)"
+        ],
+        "usability": [
+          "1.5 Acciones siempre visibles",
+          "5.4 content autocontent",
+          "6.4 Diseño adaptable",
+          "4.4 Consistencia visual"
+        ]
+      },
+      {
+        "element": "Profesorado",
+        "description": "Tarjetas con información de cada profesor",
+        "content": [
+          {
+            "imagen": "fotoprofe1.jpg",
+            "nombre": "Mario",
+            "cargo": "Especialista en accesibilidad",
+            "redSocial": "https://linkedin.com/in/mario"
+          },
+          {
+            "imagen": "fotoprofe2.jpg",
+            "nombre": "Xavi",
+            "cargo": "Especialista en diseño",
+            "redSocial": "https://linkedin.com/in/xavi"
+          },
+          {
+            "imagen": "fotoprofe3.jpg",
+            "nombre": "Alberto",
+            "cargo": "Especialista en desarrollo",
+            "redSocial": "https://linkedin.com/in/alberto"
+          },
+          {
+            "imagen": "fotoprofe4.jpg",
+            "nombre": "María",
+            "cargo": "Especialista en evaluación",
+            "redSocial": "https://linkedin.com/in/maria"
+          }
+        ],
+        "wcag": [
+          "1.1.1 A (texto alternativo)",
+          "1.3.1 A (estructura semántica)",
+          "1.3.2 A (orden lógico)",
+          "2.4.4 A (nombre descriptivo)",
+          "3.2.4 AA (identificación consistente)"
+        ],
+        "usability": [
+          "4.1 Etiquetas coherentes",
+          "4.3 Iconos consistentes",
+          "5.5 Organización intuitiva"
+        ]
+      },
+      {
+        "element": "Calendario",
+        "description": "Fechas y sesiones del curso",
+        "content": {
+          "sesion0": "25 de septiembre – Clase 0",
+          "modulo1": ["2 oct", "6 oct", "9 oct", "13 oct"],
+          "modulo2": ["20 oct", "23 oct", "27 oct", "30 oct", "3 nov"],
+          "modulo3": ["10 nov", "13 nov", "17 nov", "20 nov", "24 nov"],
+          "modulo4": ["1 dic", "4 dic", "11 dic", "15 dic", "18 dic"],
+          "eventoExtra": "22 de diciembre – Sesión de empresa invitada"
+        },
+        "wcag": [
+          "1.3.1 A (estructura semántica)",
+          "1.3.2 A (orden lógico)",
+          "1.4.12 AA (espaciado de texto)*",
+          "1.3.3 A (características sensoriales)"
+        ],
+        "usability": [
+          "5.5 Organización intuitiva",
+          "9.2 Texto conciso"
+        ]
+      },
+      {
+        "element": "Matrícula",
+        "description": "Información de precios y modalidades",
+        "content": {
+          "precioCompleto": "1192€",
+          "precioMicrocred": "358€ (25–64 años)",
+          "precioModulo": "400€",
+          "precioEspecialModulo": "350€ (personas paradas, discapacidad, colegios ingenieros)"
+        },
+        "wcag": [
+          "1.3.1 A (estructura semántica)",
+          "1.3.2 A (orden lógico)",
+          "2.4.4 A (nombre descriptivo)",
+          "2.4.5 AA (múltiples maneras)",
+          "3.3.7 A (entrada redundante)**"
+        ],
+        "usability": [
+          "4.1 Etiquetas coherentes",
+          "4.2 Resultados consistentes",
+          "5.5 Organización intuitiva"
+        ]
+      },
+      {
+        "element": "Preguntas frecuentes (FAQ)",
+        "description": "Desplegables o acordeones de ayuda",
+        "content": [
+          {
+            "pregunta": "¿Cuándo empieza el curso?",
+            "respuesta": "25 de septiembre – Clase 0; consulta calendario para resto de sesiones."
+          },
+          {
+            "pregunta": "¿Qué precio tiene el curso?",
+            "respuesta": "358€ (25–64 años microcred) o 1192€ completo; módulos 400€/350€ especial."
+          },
+          {
+            "pregunta": "¿En qué idioma se imparte?",
+            "respuesta": "Todo el material y clases síncronas en castellano."
+          },
+          {
+            "pregunta": "¿Cuándo son las clases síncronas?",
+            "respuesta": "Lunes y jueves de 18:00 a 20:00 CET (Madrid)."
+          }
+        ],
+        "wcag": [
+          "1.3.1 A (estructura)",
+          "2.1.1 A (uso por teclado)",
+          "2.4.1 A (saltos de teclado)",
+          "2.4.3 A (orden del foco)",
+          "2.4.7 AA (foco visible)",
+          "2.4.11 AA (foco no oculto)",
+          "3.2.4 AA (cambios de contexto)",
+          "3.2.6 A (ayuda consistente)",
+          "4.1.2 A (nombre/rol/estado accesible)",
+          "4.1.3 AA (mensajes de estado)*",
+          "1.4.13 AA (content en foco o al pasar el mouse)*"
+        ],
+        "usability": [
+          "5.2 Búsqueda de historial simple",
+          "5.3 Sin memoria necesaria",
+          "6.3 Aprendizaje de funciones",
+          "10.4 FAQs disponibles"
+        ]
+      },
+      {
+        "element": "Formulario de contacto / inscripción",
+        "description": "Formulario con campos y botón enviar",
+        "content": {
+          "campos": ["Nombre", "Apellido", "Correo electrónico", "Mensaje"],
+          "boton": "Enviar"
+        },
+        "wcag": [
+          "1.3.5 AA (nombre visible)",
+          "3.3.1 A (errores)",
+          "3.3.2 A (sugerencias)",
+          "3.3.7 A (entrada redundante)**",
+          "3.3.8 AA (autenticación accesible)**",
+          "2.5.3 A (etiqueta visible)",
+          "4.1.2 A (nombre/rol/estado accesible)",
+          "3.3.3 AA (sugerencia de errores)",
+          "3.3.4 AA (prevención de errores)",
+          "3.2.2 A (al ingresar datos)",
+          "2.1.4 A (atajos de teclado)*"
+        ],
+        "usability": [
+          "3.1 Volver al inicio",
+          "7.2 Errores en tiempo real",
+          "7.3 Mensajes de error claros",
+          "8.1 Confirmación de acción",
+          "8.2 Instrucciones claras",
+          "10.3 Ayuda orientada a soluciones"
+        ]
+      },
+      {
+        "element": "Pie de página <footer>",
+        "description": "Información de contacto y enlaces legales",
+        "content": {
+          "menu": ["Presentación", "Programa", "Profesorado", "Calendario", "Matrícula", "FAQ", "Contacto"],
+          "contacto": "cfc.formaciocontinua@udl.cat",
+          "web": "https://www.formaciocontinua.udl.cat/",
+          "autor": "Web realizada por Afriki"
+        },
+        "wcag": [
+          "1.3.1 A (estructura)",
+          "2.4.1 A (saltos de teclado)",
+          "1.4.3 AA (contraste)",
+          "3.2.3 AA (navegación consistente)",
+          "3.2.4 AA (identificación consistente)"
+        ],
+        "usability": [
+          "4.1 Etiquetas coherentes",
+          "4.4 Consistencia visual",
+          "9.2 Texto conciso",
+          "12.1 Tamaño de fuente legible",
+          "12.2 Contraste de texto"
+        ]
+      }
+    ]
+  }
+  
