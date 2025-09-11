@@ -1,1 +1,2 @@
-![Prototype fo all web pages](/documents/blob/main/Prototipo.jpg)
+![Prototype fo all web pages](https://raw.githubusercontent.com/UACodingAI/documents/refs/heads/main/Prototipo.jpg)
+
