@@ -1,1 +1,1 @@
-![Prototype fo all web pages](documents/blob/main/Prototype.tif)
+![Prototype fo all web pages](/documents/blob/main/Prototipo.jpg)
